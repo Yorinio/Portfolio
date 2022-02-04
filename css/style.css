@@ -1,0 +1,272 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+	padding: -0;
+	font-weight: lighter;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	color: #fff;
+}
+
+p {
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+.navbar {
+	padding: 30px;
+}
+
+li {
+	font-weight: bold;
+	font-size: 20px;
+	padding-top: 5px;
+}
+
+.products {
+	margin-top: 150px;
+}
+
+.contact {
+	margin-top: 150px;
+}
+
+.mylinks h1 {
+	padding-bottom: 20px;
+	font-weight: Bold;
+	margin-left: -20px;
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 15px;
+}
+
+footer {
+	margin-top: 100px;
+	background-color: white;
+	width: 100%;
+	color: #2e2e2e;
+	padding-bottom: 100px;
+}
+
+.right {
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.left {
+	transform: rotate(135deg);
+	-webkit-transform: rotate(135deg);
+}
+
+.up {
+	transform: rotate(-135deg);
+	-webkit-transform: rotate(-135deg);
+}
+
+.down {
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.aboutme {
+	background-image: url("/images/la.png");
+}
+
+label {
+	font-size: 20;
+}
+
+form {
+	padding: 20px;
+}
+
+input {
+	border: 0px;
+	padding: 5px;
+	font-size: 20px;
+	background-color: #585858;
+	color: white;
+	border-radius: 5px;
+}
+
+a {
+	color: white;
+	color: #585858;
+	text-decoration: none;
+}
+
+.btn-submit {
+	background-color: white;
+	color: #585858;
+	padding: 10px;
+}
+
+ul a {
+	color: white;
+	text-decoration: none;
+	font-weight: Bold;
+}
+
+.jobs {
+	margin-top: 200px;
+}
+
+.aboutme h1 {
+	font-size: 50px;
+	font-weight: 100;
+}
+
+.maintext {
+	width: 35%;
+	margin: 0 auto;
+	margin-top: 200px;
+}
+
+.sec {
+	border-left: 2px solid white;
+	padding-left: 100px;
+	width: 800px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.aboutme .sidetext {
+	padding: 10px;
+	position: absolute;
+}
+
+.topbar {
+	padding: 30px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#locandip {
+	margin-left: 25%;
+}
+
+.links-div {
+	margin-top: 200px;
+}
+
+.skills {
+	margin-top: 200px;
+}
+
+.myinfo {
+	color: #2e2e2e!important;
+	margin-left: -220px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	height: 250px;
+}
+
+.mylinks .maintext {
+	padding-left: 460px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #fff!important;
+	width: 100%;
+	background-color: #2e2e2e;
+}
+
+.mylinks h2 {
+	position: absolute;
+}
+
+.idcard {
+	padding: 20px;
+	border: 0px solid;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	color: black;
+	opacity: 0;
+	padding-left: 30px;
+	transition: opacity 0.5s, height 0.2s;
+	width: 610px;
+	height: 250px;
+	backdrop-filter: blur(20px);
+	text-shadow: 0px 0px 30px #585858;
+	background-color: rgba(251, 251, 251, 0.7);
+	margin-top: -10px;
+}
+
+.card-text {
+	margin-left: 220px;
+	margin-top: 20px;
+}
+
+.card-btns {
+	margin-top: 140px;
+	padding: 20px;
+}
+
+.card-btns .btn-white {
+	margin-left: 10px;
+}
+
+.btn-white {
+	color: #2e2e2e;
+	background-color: rgb(226, 226, 226);
+	border: 0px solid white;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 3px;
+	font-weight: bold;
+	text-transform: none;
+	text-decoration: none;
+	margin-left: 40px;
+}
+
+.btn-fade {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.fadein {
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+#welcome {
+	font-size: 55px;
+	transition: font-size 0.2s, opacity 0.5s, color 0.5s, background-color 0.5s;
+	margin-bottom: 10px;
+	opacity: 0;
+	color: white;
+	padding: 5px;
+	margin-top: -190px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	font-weight: bold;
+}
+
+#res {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+#school {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+#dob {
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+}
